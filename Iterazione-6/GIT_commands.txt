@@ -1,0 +1,13 @@
+git init
+
+git add .
+
+git commit -m "quello che vuoi"
+
+# Eseguito solo la prima volta e poi skippato
+git remote add origin https://github.com/SalvoScan/ProgettoFarmApp-IngSoftware.git
+
+git push -u -f origin master
+
+Un modello comune è quindi quello di combinare i commit asincroni nel ciclo di polling con i commit di sincronizzazione su ribilanciamenti o arresti.
+Impegnarsi in chiusura è semplice, ma è necessario un modo per agganciarsi ai ribilanciamenti.
